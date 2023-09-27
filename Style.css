@@ -1,0 +1,763 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400;1,500&display=swap');
+/*header*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: 'poppins';
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.9;
+}
+
+Header{
+
+    background-color: #53105C;
+
+}
+
+.header{
+
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+Header .logo{
+
+
+    height: 150px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.Logo_TBF{
+    background-image: url('logo/TheBigFun.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200Px;
+    width: 100%;
+    height: 150px;
+}
+
+.links{
+
+    display:inline;
+
+}
+
+.links h1{
+
+    color:white;
+    margin-bottom: 15px;
+
+}
+
+.links a {
+    transition: text-shadow 0.2s ease-in-out
+}
+
+
+.links a:hover{
+
+    text-shadow: 2px 2px 15px #F6EB0F;
+    cursor: pointer;
+
+}
+
+
+.Hero{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 450px;
+    background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.6)
+    ),
+    url('Imagenes/Fiestas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Hero button{
+
+
+    font-family: poppins;
+    font-size: 15px;
+    height: 40px;
+    width: 120px;
+    background-color: #9cecef;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.Hero button:hover{
+
+    background-color: #F6EB0F;
+
+}
+
+.Hero h1{
+
+    color: antiquewhite;
+    padding-bottom: 50px;
+}
+
+.QuienesSomos{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color:ghostwhite;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.QuienesSomos img{
+
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.QuienesSomos .parrafo{
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 570px;
+}
+
+/*Organizadoor*/
+
+.ComoOrganizador{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #53105C;
+    position: relative;
+
+}
+
+.ComoOrganizador .container{
+    max-width: 900px;
+    position: relative;
+    z-index: 2;
+}
+
+.ComoOrganizador video{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.capa{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+
+}
+
+.Organizador{
+
+    text-align: center;
+    background-color: #F6EB0F;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    height: auto;
+    width: 320px;
+    box-shadow: 10px 10px 15px black;
+
+}
+
+.Organizador h1{
+    margin-bottom: 10px;
+}
+
+.Organizador_Imagen{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.Organizador_Imagen img{
+
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 10px 10px 15px black;
+    margin-bottom: 40px;
+}
+
+/*Organizadoor*/
+
+
+
+/*Publico*/
+
+.ComoPublico{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #53105C;
+    position: relative;
+
+}
+
+.ComoPublico .container{
+
+
+    max-width: 900px;
+    position: relative;
+    z-index: 2;
+}
+
+.ComoPublico video{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.capa{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+
+}
+
+.Publico{
+
+    text-align: center;
+    background-color: #9cecef;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    height: auto;
+    width: 320px;
+    box-shadow: 10px 10px 15px black;
+
+}
+
+.Publico h1{
+    margin-bottom: 10px;
+}
+
+.Publico_Imagen{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.Publico_Imagen img{
+
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 10px 10px 15px black;
+    margin-bottom: 40px;
+}
+
+/*Publico*/
+.AboutUs{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.AboutUs h1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.AboutUs img:hover{
+
+}
+
+.Orlando{
+
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.Orlando h1{
+    margin-bottom: 20px;
+}
+
+.Raul{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 70px;
+}
+
+.Raul h1{
+
+    margin-bottom: 20px;
+}
+
+.Isabella{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 70px;
+}
+
+.Isabella h1{
+
+    margin-bottom: 20px;
+}
+.Planes .container{
+
+    justify-content: center;
+    align-items: center;
+    background-color: #53105C;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+
+
+}
+
+.card {
+
+    width: 300px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 60px;
+
+}
+
+.card-image{
+
+    height: 500px;
+    transition: transform 0.3s;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.card:hover .card-image {
+
+    transform: scale(1.1);
+
+}
+
+.card-image img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.card-content {
+
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    transition: opacity 0.5s;
+    opacity: 0;
+
+}
+
+.card:hover .card-content {
+
+    opacity: 1;
+
+}
+
+.card-content h2 {
+
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+
+}
+
+.card-content p {
+
+    margin: 0;
+    font-size: 1rem;
+}
+
+@media(min-width: 720px){
+
+    Header{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #53105C;
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+
+    }
+
+    .header{
+        width: 100%;
+        max-width: 1100px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    Header .logo{
+        width: auto;
+        height: auto;
+        margin-bottom: 0px;
+        margin-left: 30px;
+
+    }
+
+    .Logo_TBF{
+        width: 110px;
+        background-size: 110Px;
+        height: 100px;
+    }
+
+    .header nav{
+        font-size: 12px;
+        display: flex;
+        margin-top: 40px;
+        margin-right: 20px;
+
+    }
+
+    .header .links a{
+        font-size: 9px;
+        margin-left: 40px;
+    }
+
+    .Hero{
+
+        height: 600px;
+        padding-top: 120px;
+    }
+
+    .QuienesSomos{
+        padding-top:150px;
+        padding-bottom: 150px;
+    }
+
+    /Organizadoor/
+    .ComoOrganizador{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top:150px;
+        padding-bottom: 150px;
+        background-color: #53105C;
+
+    }
+
+
+    .ComoOrganizador .container{
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .ComoOrganizador video{
+
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+
+    .capa{
+
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #1c1c1d;
+        opacity: 0.5;
+
+    }
+
+    .Organizador_Imagen{
+
+        margin-top: 50px;
+
+    }
+
+    /Organizadoor/
+
+    /publico/
+
+    .ComoPublico{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top:150px;
+        padding-bottom: 150px;
+        background-color: #53105C;
+
+    }
+
+
+    .ComoPublico .container{
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .ComoPublico video{
+
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+
+    .capa{
+
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #1c1c1d;
+        opacity: 0.5;
+
+    }
+
+    .Publico_Imagen{
+
+        margin-top: 50px;
+
+    }
+
+    /publico/
+    .AboutUs{
+        padding-top:150px;
+        padding-bottom: 150px;
+    }
+
+    .AboutUs .container{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        align-items: center;
+        max-width: 1000px;
+
+    }
+    .Planes{
+
+        justify-content: center;
+        align-items: center;
+        background-color: #53105C;
+        display: flex;
+
+    }
+
+    .Planes .container{
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1000px;
+
+    }
+}
+
+
+/**/
+
+@media(min-width: 810px){
+
+    .header .links a{
+
+        font-size: 11.5px;
+
+    }
+}
+
+.videoProduct{
+    width:100%;
+}
+
+.AboutThe{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.AboutThe .container{
+
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutThe h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.MediaSection {
+
+    background-color: #53105C;
+
+}
+
+.textAbout{
+    font-family: poppins;
+    color: white;
+}
+
+.comingSoon{
+    width: 100%;
+}
+
+
+.team-designer{
+    display: flex;
+    height: 20rem;
+    gap:1rem
+}
+
+.team-designer > div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    opacity: 0.7;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.team-designer>div>h2{
+    height: 100%;
+    opacity: 0;
+    font-family: poppins;
+}
+
+.team-designer > div:hover{
+    flex: 2;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+.team-designer>div>h2:hover{
+    opacity: 1;
+}
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p{
+    font-family: poppins;
+    font-size: small;
+}
+.smimg{
+    margin-top:5px;
+    height: 30px;
+}
+
